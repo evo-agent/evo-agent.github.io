@@ -166,12 +166,15 @@
 
         <div class="item">
          <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
-           VisIT-Bench Instance
+           EvoAgent: Multi-Agent Generation with Evolutionary Algorithm
            </h2>
          <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
          <p>
-             An example from VisIT-Bench, featuring an image, an instruction, an  “instruction-conditioned caption”, a detailed description allowing a model to follow the instruction using just the text, and a human-verified response from GPT-4. These elements are used for evaluating multimodal chatbots and updating a leaderboard.📊
-
+             The entire process of EvoAgent is illustrated in Algorithm 1. Here, we formulate the procedure of EvoAgent as a four-stage pipeline:📊
+             1. STEP 1: Initialization. Here, we enable EvoAgent to start from a pre-defined agent framework, which serves as the initial (parent) agents.
+             2. STEP 2: Crossover and Mutation. In the first iteration, we directly use the initial agents as the parents. And then, we design two kinds of evolutionary operators, named Crossover and Mutation.
+             3. STEP 3: Selection. Based on the above steps, we can obtain multiple candidate agents with diverse settings.
+             4. STEP 4: Results Update. Based on the above steps, we obtain many new agents that evolved from parent agents, but with diverse settings.
          </p>
          <p style="text-align:center;">
            <br><br>
