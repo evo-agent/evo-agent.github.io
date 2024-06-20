@@ -166,11 +166,11 @@
            </h2>
          <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
          <p>
-             The entire process of EvoAgent is illustrated in Algorithm 1. Here, we formulate the procedure of EvoAgent as a four-stage pipeline:📊<br>
-             1. STEP 1: Initialization. We enable EvoAgent to start from a pre-defined agent framework, which serves as the initial (parent) agents.<br>
-             2. STEP 2: Crossover and Mutation. In the first iteration, we directly use the initial agents as the parents. And then, we design two kinds of evolutionary operators.<br>
-             3. STEP 3: Selection. We conduct a quality-check module with an LLM to detect whether the generated agents can satisfy it has inherited the characteristics and maintained differences from parent agents.<br>
-             4. STEP 4: Results Update. We ask each child agent to generate candidate results and then use LLMs to integrate these candidates with the result from the previous iteration into a new result, akin to a natural selection processing stage.<br>
+             We formulate the procedure of EvoAgent as a four-stage pipeline:📊<br>
+             STEP 1: Initialization. Start with a predefined framework as the initial agents.<br>
+             STEP 2: Crossover and Mutation. Employ the evolutionary operators to generate agents.<br>
+             STEP 3: Selection. Employ an LLM-based quality-check module to ensure agents retain characteristics and introduce variations.<br>
+             STEP 4: Results Update. Generate results using child agents, then integrate these with previous results via LLMs.<br>
          </p>
          <p style="text-align:center;">
            <br><br>
@@ -190,7 +190,7 @@
 
       <div class="item">
          <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
-           EvoAgent on NLP Tasks
+           EvoAgent NLP and Multi-Modal Tasks
            </h2>
          <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
          <p>
@@ -228,8 +228,7 @@
            </h2>
          <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
          <p>
-             Moreover, in addition to performing actions in interactive environments, planning in complex and realistic environments is also a crucial skill for building autonomous agents.<br>
-             To validate this point, we also select TravelPlanner [49], a benchmark designed to evaluate language agents in real-world complex planning with multiple constraints. We find that: <br>
+             We also select TravelPlanner, a benchmark designed to evaluate language agents in real-world complex planning with multiple constraints. We find that: <br>
              1. EvoAgent can generate specialized agents, such as those focused on culinary experiences, transportation, and attractions.<br>
              2. By using EvoAgent to automatically generate multiple agents and forming a multi-agent collaboration paradigm, we can develop higher-quality plans that better meet user preferences.<br>
          </p>
