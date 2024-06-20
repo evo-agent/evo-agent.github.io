@@ -1,2 +1,2 @@
-VisIT-Bench Website
-http://visit-bench.github.io/
+EvoAgent Website
+https://evo-agent.github.io/
