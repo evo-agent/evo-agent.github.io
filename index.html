@@ -157,13 +157,9 @@
   </div>
 </section>
 
-
-<!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-
         <div class="item">
          <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
            EvoAgent: Multi-Agent Generation with Evolutionary Algorithm
@@ -173,19 +169,28 @@
              The entire process of EvoAgent is illustrated in Algorithm 1. Here, we formulate the procedure of EvoAgent as a four-stage pipeline:📊<br>
              1. STEP 1: Initialization. We enable EvoAgent to start from a pre-defined agent framework, which serves as the initial (parent) agents.<br>
              2. STEP 2: Crossover and Mutation. In the first iteration, we directly use the initial agents as the parents. And then, we design two kinds of evolutionary operators.<br>
-             3. STEP 3: Selection. We conduct a quality-check module with an LLM to detect whether the generated agents can satisfy whether it has inherited the characteristics and maintained differences from parent agents.<br>
+             3. STEP 3: Selection. We conduct a quality-check module with an LLM to detect whether the generated agents can satisfy it has inherited the characteristics and maintained differences from parent agents.<br>
              4. STEP 4: Results Update. We ask each child agent to generate candidate results and then use LLMs to integrate these candidates with the result from the previous iteration into a new result, akin to a natural selection processing stage.<br>
          </p>
          <p style="text-align:center;">
            <br><br>
-           <img src="static/images/2_example.png"  style="width: 80%; height: 80%"/>
+           <img src="static/images/2_example.png" style="width: 80%; height: 80%"/>
          </p>
          </h3>
       </div>
+  </div>
+</div>
+</section>
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
 
       <div class="item">
          <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
-           EvoAgent on NLP and Multi-Modal Tasks: SSP and MMMU
+           EvoAgent on NLP Tasks
            </h2>
          <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
          <p>
