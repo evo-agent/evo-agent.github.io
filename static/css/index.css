@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   line-height: 1.5;
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 .teaser {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 
@@ -49,11 +49,11 @@ body {
 }
 
 .publication-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .publication-authors {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .publication-venue {
